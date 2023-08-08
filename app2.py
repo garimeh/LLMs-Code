@@ -10,7 +10,7 @@ from htmlTemplates import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "<insert>"
 
 embeddings = HuggingFaceInstructEmbeddings()
 
