@@ -9,8 +9,8 @@ import faiss
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings
 from langchain.vectorstores import FAISS
 
-os.environ["OPENAI_API_KEY"] = "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"
-pinecone.init(api_key="5dbdf6f8-f0e4-4e8a-8cf6-3dcc6ace494a", environment="gcp-starter")
+os.environ["OPENAI_API_KEY"] = "<insert>"
+pinecone.init(api_key="<insert>", environment="gcp-starter")
 
 embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
 # db = FAISS.load_local("db", embeddings)
