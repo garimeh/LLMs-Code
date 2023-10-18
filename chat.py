@@ -11,11 +11,11 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "<insert key>"
 
 # initialize pinecone
 pinecone.init(
-    api_key="5dbdf6f8-f0e4-4e8a-8cf6-3dcc6ace494a",  # find at app.pinecone.io
+    api_key="<insert key",  # find at app.pinecone.io
     environment="gcp-starter"  # next to api key in console
 )
 
